@@ -1,0 +1,271 @@
+{
+  "id": "49272301-d1bc-4dad-87c7-4fdb7b6c53f0",
+  "version": "2.0",
+  "name": "Libreria Nacional",
+  "url": "https://librerianacional.com",
+  "tests": [{
+    "id": "b2064e2e-c2c5-4df9-accf-12f14352b042",
+    "name": "Inicio, categorias y agregar producto",
+    "commands": [{
+      "id": "a7d878c9-f8cd-4d21-ac1e-878d198bd366",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7102ab48-d1ce-4131-afaf-adbab2df9b41",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x1392",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f63620d6-d79c-4814-92f6-5a55f11a64fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row #dropdownMenuLogin",
+      "targets": [
+        ["css=.row #dropdownMenuLogin", "css:finder"],
+        ["xpath=(//button[@id='dropdownMenuLogin'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/menu-login-header/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bccbe1da-3a74-4434-8ec1-7f413dc3151b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar Sesión",
+      "targets": [
+        ["linkText=Iniciar Sesión", "linkText"],
+        ["css=.show > .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Iniciar Sesión')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/usuario/ingresar')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/menu-login-header/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e26cec-44c6-47d0-a9ee-0c9b239a799d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-12:nth-child(5) > a > .d-flex",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-12:nth-child(5) > a > .d-flex", "css:finder"],
+        ["xpath=//div[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3673f71a-2745-4668-8c77-14a46da5da73",
+      "comment": "",
+      "command": "type",
+      "target": "name=usuario",
+      "targets": [
+        ["name=usuario", "name"],
+        ["css=.ng-valid", "css:finder"],
+        ["xpath=//input[@name='usuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gaviriajulioj@gmail.com"
+    }, {
+      "id": "59c04456-788e-4b26-a1de-3db87515d26b",
+      "comment": "",
+      "command": "type",
+      "target": "name=contrasena",
+      "targets": [
+        ["name=contrasena", "name"],
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=//input[@name='contrasena']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "libreria1"
+    }, {
+      "id": "b32230c4-bdc0-471f-b75d-79015a871c33",
+      "comment": "",
+      "command": "click",
+      "target": "name=usuario",
+      "targets": [
+        ["name=usuario", "name"],
+        ["css=.row:nth-child(1) > .bg-transparent", "css:finder"],
+        ["xpath=//input[@name='usuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9b8c001-e738-43ba-8aa3-502ba1717b50",
+      "comment": "",
+      "command": "click",
+      "target": "name=usuario",
+      "targets": [
+        ["name=usuario", "name"],
+        ["css=.row:nth-child(1) > .bg-transparent", "css:finder"],
+        ["xpath=//input[@name='usuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b690f01f-dd19-4188-b3f1-3fc6f577b950",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=usuario",
+      "targets": [
+        ["name=usuario", "name"],
+        ["css=.row:nth-child(1) > .bg-transparent", "css:finder"],
+        ["xpath=//input[@name='usuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "915bd932-387a-489c-940d-3aae3e89a089",
+      "comment": "",
+      "command": "click",
+      "target": "name=usuario",
+      "targets": [
+        ["name=usuario", "name"],
+        ["css=.row:nth-child(1) > .bg-transparent", "css:finder"],
+        ["xpath=//input[@name='usuario']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a954b3a-20c1-4000-9aad-9e3a07d472b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=contrasena",
+      "targets": [
+        ["name=contrasena", "name"],
+        ["css=.row:nth-child(3) > .bg-transparent", "css:finder"],
+        ["xpath=//input[@name='contrasena']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "libreria1"
+    }, {
+      "id": "a7cc1eda-09db-48a8-b540-e9475218fa34",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=contrasena",
+      "targets": [
+        ["name=contrasena", "name"],
+        ["css=.row:nth-child(3) > .bg-transparent", "css:finder"],
+        ["xpath=//input[@name='contrasena']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4426e55d-8fdf-459b-90f4-5551d9752df4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LIBROS",
+      "targets": [
+        ["linkText=LIBROS", "linkText"],
+        ["css=.pr-2:nth-child(1) > .text-white", "css:finder"],
+        ["xpath=(//a[contains(text(),'LIBROS')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/categoria/libros')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f64d2e62-18a9-42dd-b5ca-7d74ef60a977",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .d-block",
+      "targets": [
+        ["css=.row:nth-child(3) .d-block", "css:finder"],
+        ["xpath=//a[contains(@href, '/producto/harry-potter-serie-completa-estuche')]", "xpath:href"],
+        ["xpath=//figure/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728634be-21b0-467c-9ee5-7e0e5fa82201",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73c74862-6cad-4a35-b25c-0cde2590850e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-blue-medium",
+      "targets": [
+        ["css=.btn-blue-medium", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='js-libro-content']/div/div/div[2]/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae75d139-9f3f-4a9c-b79b-aed2f8235d7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.justify-content-center > .btn",
+      "targets": [
+        ["css=.justify-content-center > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f44722d-9ccd-409e-91d1-30faec5f2df7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=julio",
+      "targets": [
+        ["linkText=julio", "linkText"],
+        ["css=.row .pr-lg-0 .d-flex", "css:finder"],
+        ["xpath=(//a[contains(text(),'julio')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/mi-cuenta')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/menu-login-header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89470b1a-52f9-496c-a59e-2ee40e4e6023",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-bottom:nth-child(6) span:nth-child(1)",
+      "targets": [
+        ["css=.border-bottom:nth-child(6) span:nth-child(1)", "css:finder"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,' Cerrar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e563a304-d004-491e-90d4-4eaadbcaa648",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Novedades",
+      "targets": [
+        ["linkText=Novedades", "linkText"],
+        ["css=.mb-3 > .col-md-6 > .text--blue", "css:finder"],
+        ["xpath=//a[contains(text(),'Novedades')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categoria/libros/novedades')]", "xpath:href"],
+        ["xpath=//app-home/div[3]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Novedades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df0e9af7-bca3-4dd0-af7d-cfc56401274d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Novedades",
+      "targets": [
+        ["linkText=Novedades", "linkText"],
+        ["css=.mb-3 > .col-md-6 > .text--blue", "css:finder"],
+        ["xpath=//a[contains(text(),'Novedades')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categoria/libros/novedades')]", "xpath:href"],
+        ["xpath=//app-home/div[3]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Novedades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d8e8301c-53f9-46a6-a477-a5d9c64a3f5e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://librerianacional.com/"],
+  "plugins": []
+}
